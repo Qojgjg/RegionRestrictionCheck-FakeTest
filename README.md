@@ -10,7 +10,7 @@
 
 
 
-ALL check is Fake ！
+All check is fake ！
 ## 使用方法
 
 **使用脚本前请确认curl已安装**
