@@ -1,10 +1,14 @@
 
 
 ## 脚本介绍
+
+流媒体平台及游戏区域限制娱乐测试
+
+脚本默认提示全解锁-无广告-仅供娱乐，不代表实际最终的解锁结果
+
 本脚本基于[lmc999/RegionRestrictionCheck](https://github.com/lmc999/RegionRestrictionCheck)代码进行修改
 
 
-脚本默认提示全解锁-无广告-仅供娱乐,不代表最终实际解锁结果
 
 ALL check is Fake ！
 ## 使用方法
