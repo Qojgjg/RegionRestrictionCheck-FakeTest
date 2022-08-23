@@ -13,7 +13,7 @@
 
 iOS运行方法请参考[此处](https://github.com/lmc999/RegionRestrictionCheck/wiki/iOS%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC%E6%96%B9%E6%B3%95)
 
-默认全解锁-
+默认全解锁
 
 ## 使用方法
 
