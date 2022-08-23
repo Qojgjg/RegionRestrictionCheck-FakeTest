@@ -6,7 +6,7 @@
 
 脚本默认提示全解锁-无广告-仅供娱乐,不代表最终实际解锁结果
 
-ALL check is Fake 
+ALL check is Fake ！
 
 
 
