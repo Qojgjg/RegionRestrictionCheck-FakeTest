@@ -7,105 +7,13 @@
 ### [Introduction](https://github.com/lmc999/RegionRestrictionCheck/blob/main/README_EN.md)
 
 ## 脚本介绍
-本脚本基于[CoiaPrant/MediaUnlock_Test](https://github.com/CoiaPrant/MediaUnlock_Test)代码进行修改
+本脚本基于[lmc999/RegionRestrictionCheck](https://github.com/lmc999/RegionRestrictionCheck)代码进行修改
 
 **支持OS/Platform：CentOS 6+, Ubuntu 14.04+, Debian 8+, MacOS, Android with Termux**
 
 iOS运行方法请参考[此处](https://github.com/lmc999/RegionRestrictionCheck/wiki/iOS%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC%E6%96%B9%E6%B3%95)
 
-+ 优化了Disneyplus的判断准确性
-
-+ 新增MyTVSuper解锁判断
-
-+ 新增Dazn解锁判断
-
-+ 新增Hulu Japan解锁判断
-
-+ 新增赛马娘解锁判断
-
-+ 新增舰娘解锁判断
-
-+ 新增Now E解锁判断
-
-+ 新增Viu TV解锁判断
-
-+ 新增U-NEXT VIDEO解锁判断
-
-+ 新增Paravi解锁判断
-
-+ 优化了Abema TV的判断准确性
-
-+ 新增WOWOW解锁判断
-
-+ 新增TVer解锁判断
-
-+ 新增Hami Video解锁判断
-
-+ 新增4GTV解锁判断
-
-+ 新增Sling TV解锁判断
-
-+ 新增Pluto TV解锁判断
-
-+ 新增HBO Max解锁判断
-
-+ 新增Channel 4解锁判断
-
-+ 新增ITV Hub解锁判断
-
-+ 新增爱奇艺国际版区域判断
-
-+ 新增Hulu US解锁判断
-
-+ 新增encoreTVB解锁判断
-
-+ 新增LineTV TW解锁判断
-
-+ 新增Viu.com解锁判断
-
-+ 新增Niconico解锁判断
-
-+ 新增Paramount+解锁判断
-
-+ 新增KKTV解锁判断
-
-+ 新增Peakcock TV解锁判断
-
-+ 新增FOD解锁判断
-
-+ 新增TikTok区域判断
-
-+ 优化YouTube判断增加Premium是否可用判断
-
-+ 新增BritBox解锁判断
-
-+ 新增Amazon Prime Video区域判断
-
-+ 新增Molotov解锁判断
-
-+ 新增DMM解锁判断
-
-+ 新增Radiko解锁及区域判断
-
-+ 新增CatchPlay+解锁判断
-
-+ 新增Hotstar解锁判断
-
-+ 新增Litv解锁判断
-
-+ 新增Fubo TV解锁判断
-
-+ 新增Fox解锁判断
-
-+ 新增Joyn解锁判断
-
-+ 新增Sky Germany解锁判断
-
-+ 新增ZDF解锁判断
-
-+ 新增HBO GO Asia解锁判断
-
-+ 新增HBO GO Europe解锁判断
+默认全解锁-
 
 ## 使用方法
 
