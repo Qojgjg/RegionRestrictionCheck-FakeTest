@@ -3021,23 +3021,12 @@ function Goodbye() {
         echo -e "${Font_Yellow}Number of Script Runs for Today: ${TodayRunTimes}; Total Number of Script Runs: ${TotalRunTimes} ${Font_Suffix}"
         echo -e ""
         echo -e "========================================================="
-        echo -e "${Font_Red}If you found this script helpful, you can but me a coffee${Font_Suffix}"
-        echo -e ""
-        echo -e "LTC: LQD4S6Y5bu3bHX6hx8ASsGHVfaqFGFNTbx"
-        echo -e "========================================================="
     else
         echo -e "${Font_Green}本次测试已结束，感谢使用此脚本 ${Font_Suffix}"
         echo -e ""
         echo -e "${Font_Yellow}检测脚本当天运行次数: ${TodayRunTimes}; 共计运行次数: ${TotalRunTimes} ${Font_Suffix}"
         echo -e ""
-        bash <(curl -s https://raw.githubusercontent.com/lmc999/RegionRestrictionCheck/main/reference/AD/AD${ADN})
-        echo -e ""
-        echo -e ""
-        echo -e ""
-        echo -e ""
-        echo -e "${Font_Yellow}由于大部分 IP 的 Tiktok 检测时间过长，已将该检测移除出脚本${Font_Suffix}"
-        echo -e "${Font_Yellow}需要检测 Tiktok 区域请移步项目: https://github.com/lmc999/TikTokCheck${Font_Suffix}"
-
+        echo -e "${Font_Yellow}脚本仅供娱乐，不代表实际解锁情况${Font_Suffix}"
     fi
 }
 
@@ -3045,7 +3034,7 @@ clear
 
 function ScriptTitle() {
     if [[ "$language" == "e" ]]; then
-        echo -e " [Stream Platform & Game Region Restriction Test]"
+        echo -e " [Stream Platform & Game Region Restriction Test & Fake Test]"
         echo ""
         echo -e "${Font_Green}Github Repository:${Font_Suffix} ${Font_Yellow} https://github.com/lmc999/RegionRestrictionCheck ${Font_Suffix}"
         echo -e "${Font_Green}Telegram Discussion Group:${Font_Suffix} ${Font_Yellow} https://t.me/gameaccelerate ${Font_Suffix}"
@@ -3054,11 +3043,9 @@ function ScriptTitle() {
         echo -e " ** Test Starts At: $(date)"
         echo ""
     else
-        echo -e " [流媒体平台及游戏区域限制测试]"
+        echo -e " [流媒体平台及游戏区域限制娱乐测试]"
         echo ""
-        echo -e "${Font_Green}项目地址${Font_Suffix} ${Font_Yellow}https://github.com/lmc999/RegionRestrictionCheck ${Font_Suffix}"
-        echo -e "${Font_Green}BUG反馈或使用交流可加TG群组${Font_Suffix} ${Font_Yellow}https://t.me/gameaccelerate ${Font_Suffix}"
-        echo -e "${Font_Purple}脚本适配OS: CentOS 6+, Ubuntu 14.04+, Debian 8+, MacOS, Android (Termux), iOS (iSH)${Font_Suffix}"
+        echo -e "${Font_Green}原项目地址${Font_Suffix} ${Font_Yellow}https://github.com/lmc999/RegionRestrictionCheck ${Font_Suffix}"
         echo ""
         echo -e " ** 测试时间: $(date)"
         echo ""
@@ -3090,7 +3077,6 @@ function Start() {
         echo -e "${Font_SkyBlue}输入数字  [7]: [跨国平台+大洋洲平台]检测${Font_Suffix}"
         echo -e "${Font_SkyBlue}输入数字  [0]: [   只进行跨国平台  ]检测${Font_Suffix}"
         echo -e "${Font_SkyBlue}输入数字 [99]: [   体育直播平台    ]检测${Font_Suffix}"
-        echo -e "${Font_Purple}输入数字 [69]: [   广告推广投放    ]咨询${Font_Suffix}"
         read -p "请输入正确数字或直接按回车:" num
     fi
 }
@@ -3228,18 +3214,6 @@ function RunScript() {
                 Global_UnlockTest 6
             fi
             Goodbye
-
-        elif [[ "$num" -eq 69 ]]; then
-            clear
-            ScriptTitle
-            echo ""
-            echo ""
-            echo -e "${Font_Red}**************************${Font_Suffix}"
-            echo -e "${Font_Red}*                        *${Font_Suffix}"
-            echo -e "${Font_Red}*${Font_Suffix} 广告招租               ${Font_Red}*${Font_Suffix}"
-            echo -e "${Font_Red}*${Font_Suffix} 请联系：@reidschat_bot ${Font_Red}*${Font_Suffix}"
-            echo -e "${Font_Red}*                        *${Font_Suffix}"
-            echo -e "${Font_Red}**************************${Font_Suffix}"
 
         else
             echo -e "${Font_Red}请重新执行脚本并输入正确号码${Font_Suffix}"
